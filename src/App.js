@@ -9,7 +9,6 @@ export const UserNameContext = React.createContext();
 
 const App = () => {
   const [value, setValue] = useState();
-  const probaZaGit = "proba";
 
   return (
     <UserNameContext.Provider value={{ value, setValue }}>
