@@ -12,7 +12,6 @@ const Header = (props) => {
       .then((res) => res.json())
       .then((data) => {
         setUsers(data.results);
-        console.log(data.results);
       });
   }, []);
 
@@ -20,7 +19,7 @@ const Header = (props) => {
 
   const Particles = (particle) => {
     // parameter-> object valueName iz API-ja
-    const pmElement = (i) => i.parameter == particle;
+    const pmElement = (i) => i.parameter === particle;
     const indexOfQuality = airQuality.findIndex(pmElement);
     const quality = users[indexOfQuality]?.value;
 
@@ -34,10 +33,10 @@ const Header = (props) => {
   return (
     <div className="header">
       <h2>Grad Zagreb, kvaliteta zraka ({time}h): </h2>
-      <h2 style={{ color: mediumParticles > 20 ? "red" : "green" }}>
+      <h2 style={{ color: mediumParticles > 20 ? "darkred" : "green" }}>
         PM2.5 = {mediumParticles} µg/m³{" "}
       </h2>
-      <h2 style={{ color: bigParticles > 40 ? "red" : "green" }}>
+      <h2 style={{ color: bigParticles > 40 ? "darkred" : "green" }}>
         PM10 = {bigParticles} µg/m³
       </h2>
     </div>

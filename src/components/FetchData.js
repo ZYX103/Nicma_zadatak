@@ -8,7 +8,6 @@ import Backdrop from "./Header_footer/Backdrop";
 const FetchData = (props) => {
   const [users, setUsers] = useState([null]);
   const { value, setValue } = useContext(UserNameContext);
-  const [closeModal, setCloseModal] = useState(true);
   const [openModal, setOpenModal] = useState(false);
 
   useEffect(() => {
