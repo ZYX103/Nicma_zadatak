@@ -1,0 +1,34 @@
+.main-text-2 {
+  padding: 10px 20px;
+  /* border: 2px solid var(--primary4); */
+  margin: auto 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  width: 20vw;
+  background-color: var(--tertiary2);
+  position: relative;
+  box-shadow: 1px 1px 2px 2px rgb(62, 94, 107);
+}
+
+.main-text-2:hover {
+  transform: scale(1.05);
+  background-color: var(--tertiary3);
+}
+
+.main-text-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+
+.sidebar {
+  color: black;
+}
+
+.sidebar2 {
+  font-size: 0.8rem;
+  margin: 10px 10px 10px 10px;
+  background-color: var(--tertiary2);
+  padding: 2px 5px;
+}

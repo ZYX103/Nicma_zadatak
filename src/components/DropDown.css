@@ -1,0 +1,60 @@
+.osnovni-podaci {
+  background-color: var(--primary1);
+  justify-content: center;
+  width: 40vw;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(6, 37, 46);
+  margin: 20px auto;
+  padding: 20px 20px;
+  position: absolute;
+  top: 5vh;
+  left: 30vw;
+  z-index: 2;
+  color: rgb(233, 233, 233);
+}
+
+.properties-container {
+  margin-top: 40px;
+  background-color: var(--tertiary3);
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  /* border: none; */
+  background-color: var(--secondary2);
+  font-weight: 800;
+  border: none;
+}
+
+.close-btn:hover {
+  background-color: var(--secondary1);
+  color: whitesmoke;
+}
+
+.basic-data-container div {
+  margin-bottom: 3px;
+}
+
+.settings-btn {
+  top: -50px;
+  right: -100px;
+  padding: 10px 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.properties-and-button {
+  display: flex;
+}
+
+.qr-code {
+  position: absolute;
+  top: 250px;
+  right: 30px;
+}

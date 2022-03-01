@@ -1,0 +1,17 @@
+.probni-modal {
+  background-color: rgb(245, 243, 122);
+  height: 300px;
+  width: 700px;
+  z-index: 5;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+.modalOpen {
+  display: block;
+}
+
+.modalClose {
+  display: none;
+}
