@@ -22,3 +22,12 @@ const App = () => {
 };
 
 export default App;
+
+let a = [1, 2, 3];
+function bobo(prop) {
+  for (const i of prop) {
+    console.log(i);
+  }
+}
+
+bobo(a);
